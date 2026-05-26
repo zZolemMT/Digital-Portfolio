@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asad Tawakkaly - Digital Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav id="top">
+      <ul class="nav">
+        <li class="logo" style="float:left;"><a href="index.html">Asad Tawakkaly</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+      </ul>
+    </nav>
+
+    <div class="intro">
+      <h1>Hello! I'm Asad Tawakkaly 👋</h1>
+      <p>I'm a student at Canberra Grammar School, and I am capable of some simple front end web development, programming in Python, Golang and C.</p>
+    </div>
+
+    <div id="aboutme">
+      <h2>About me</h2>
+      <div class="table" style="grid-template-columns: 2fr 1fr;">
+        <div class="text"><p>I am a Year 9 IT student at Canberra Grammar School who loves programming simply because it is incredibly cool to realize that when you code, you can build absolutely anything you want from scratch. Having total control over a digital canvas and making a program come alive out of nothing is what makes software development so awesome to experiment with.</p></div>
+        <div class="img"><img src="assets/python.png"></div>
+      </div>
+    </div>
+
+    <div class="work-and-contributions" id="work">
+      <h2>My work and contributions can be viewed <i>here</i></h2>
+      <div class="table">
+        <div></div>
+        <div class="img"><a href="#mov-cli"><img src="assets/mov-cli.png"></a></div>
+        <div class="img"><a href="#graphics"><img src="assets/graphics.png"></a></div>
+        <div></div>
+
+        <div></div>
+        <div class="img"><a href="#animation"><img src="assets/anim.gif"></a></div>
+        <div class="img"></div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="proj-element" id="mov-cli">
+        <h2>Mov-cli</h2>
+        <div class="table" style="grid-template-columns: 2fr 1fr;">
+          <div class="text"><p>A project I contributed to (not made) which allows you to stream entertainment, most commonly YouTube, from the terminal. Specifically, I helped solve some compatibilaty issues surrounding macOS, as this tool was built for Linux distrobutions.</p></div>
+          <div class="img"><img src="assets/mov-cli.png"></div>
+        </div>
+      </div>
+
+      <div class="proj-element" id="graphics">
+        <h2>Graphics Engine</h2>
+        <div class="table" style="grid-template-columns: 1fr 2fr;">
+          <div class="img"><img src="assets/graphics.png"></div>
+          <div class="text"><p>This was a little project that I made in Python, with the intention of learning - not making a polished tool, app or game. All 3D specific rendering code was made by me, however for base rendering and drawing, I used a library Pygame.</p></div>
+        </div>
+      </div>
+
+      <div class="proj-element" id="animation">
+        <h2>Animation</h2>
+        <img src="assets/anim.gif">
+        <div class="table" style="grid-template-columns: 2fr 1fr;">
+          <div class="text"><p>Here is an animation that I created in Scratch, featuring a snippet of a cat's daily life. I made many major changes throughout the animation:<br><br>Originally, the animation featured a more realistic looking cat, but I problem I faced was that I couldn't move the individual limbs.<br><br>To solve this problem, I decided to seperate each limb and make it it's own object, allowing me to move the limbs freely.<br><br>Another problem that I faced was that the cat looked un-realistic and weird, so I decided to completely change the art style to a cartoony art style as seen to the right.</p></div>
+          <div class="img"><img src="assets/scratch.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <h2>Skills</h2>
+      <div>
+        <h3>Python</h3>
+        <div class="table" style="grid-template-columns: 1fr 2fr;">
+          <div class="img"><img src="assets/Python-logo-notext.svg.png"></div>
+          <div class="text"><p>Python is the programming language I have been using for a long time, and it has become my go-to tool whenever I want to just create something.<br><br>Because it is a general-purpose language with a massive collection of libraries, I can use it for almost anything. What I love most about Python is how fast it lets me get something working. If I have an idea for a simple project, a system automation, or I just want to see if something will work, I can prototype it in Python instantly to see if the logic actually functions.<br><br>Once I prove the concept works under the hood, I can then go ahead and build it out properly or port it over to other platforms and languages. It is the ultimate language for testing my programming skills.</p></div>
+        </div>
+      </div>
+      <div>
+        <h3>Golang</h3>
+        <div class="table" style="grid-template-columns: 2fr 1fr;">
+          <div class="text" id="golang-stuff"><p>Go has become my absolute main programming language whenever I am building larger, more complex projects. Even though Google originally engineered Go specifically for cloud networking and massive backend server infrastructures, I don't use it for that purpose. Instead, I love using it as a general-purpose language for my own large-scale projects. The main reason I choose Go over everything else for big projects is its incredible speed, performance, and efficiency. It gives me the structure and power needed to keep code completely clean and organized when a project starts growing out of hand, making it the perfect language to use.</p></div>
+          <div class="img"><img src="assets/golang.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="table" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div class="text"><p>Asad Tawakkaly - Year 9 Student</p></div>
+        <div class="text"><a href="#top"><p>Back to Top</p></a></div>
+        <div class="text"><p>© 2026 Asad Tawakkaly. Built from scratch using HTML5 & CSS. Styled with the Catppuccin Mocha colour palette.<p></div>
+      </div>
+    </footer>
+
+  </body>
+</html>

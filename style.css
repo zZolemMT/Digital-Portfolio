@@ -1,0 +1,101 @@
+:root {
+  --bg: #1e1e2e;
+  --text: #cdd6f4;
+}
+
+* {
+  font-family: Arial;
+}
+
+body {
+  background: var(--bg);
+  margin: 40px 8%;
+}
+
+h1, h2, h3, h4, p {
+  color: var(--text);
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+.table div {
+  padding: 10px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav li {
+  float: right;
+}
+.nav li a {
+  font-size: 20px;
+  display: block;
+  color: var(--text);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+.nav li a:hover:not(.active) {
+  color: #9399b2;
+}
+
+#aboutme {
+  padding: 45px 0px 90px;
+}
+
+.intro {
+  padding: 90px 0px 90px;
+  text-align: center;
+}
+.intro p {
+  width: 70%;
+  margin: auto;
+}
+
+.work-and-contributions {
+  padding: 0px 0px 45px;
+}
+
+#skills {
+  padding: 0px 0px 90px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.proj-element {
+  padding: 0px 0px 45px;
+}
+
+#mov-cli .table .text p, #animation .table .text p, #aboutme .table p, #golang-stuff {
+  text-align: right;
+}
+
+footer .table .text {
+  text-align: center;
+}
+footer .table .text p {
+  font-size: 15px;
+}
+footer .table .text a {
+  text-decoration: none;
+}
